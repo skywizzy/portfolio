@@ -1,0 +1,165 @@
+body{
+	background-image:url(../img/bg.jpg);
+	font-family: Verdana, sans-serif;
+	font-size:big;
+	color: white;
+	margin:0%;
+	padding:0%;
+	width:100%;
+	height:100%;
+}
+.main-content{
+	margin: 3% 0% 0% 20%;
+	width: 90%;
+}
+.main-content img{
+   width: 60%;
+}
+#imgex{
+   width: 15%;
+}
+.main-content li{
+	list-style-type:none;
+	float:left;
+	margin-right: 3%;
+	border:none;
+}
+.main-content a:hover{
+	border:3px outset;	
+}
+#respond{
+	display:block;
+}
+#respond:hover div{
+	background-color: rgb(255,255,255,0.95);
+	border:3px white outset;
+}
+#img-sp{
+	margin-left:25%; 
+}
+#photo{
+	width:35%;
+	height: 10%;
+	border-radius: 90%;
+	margin-left:33%; 
+}
+.about p{
+	font-size: 20px;
+}
+.about{
+	width: 90%;
+	padding: 3% 5%;
+	text-align: center;
+	color: white;
+	background-color: rgba(255,255,255,0.25);
+	margin: 0px auto;
+	border-top-left-radius:150%;
+	border-top-right-radius:150%;
+}
+h2,h1{
+	text-align: center;
+	color: white;
+}
+footer{
+	width:100%;
+  	color: #fff;
+	margin-top: 15%
+}
+@media screen and (max-width:1390px){
+	.main-content{
+	margin: 3% 0% 0% 20%;
+	width: 100%;
+}
+.main-content li{
+	margin-right: 2%;
+}
+}
+@media screen and (max-width:1199px){
+	#img-sp{
+	margin-right:27%; 
+}
+}
+@media screen and (max-width:1180px){
+	.main-content{
+	margin: 3% 0% 0% 5%;
+	width: 90%;
+}
+.main-content li{
+	margin-right:0%;
+}
+.about p{
+	font-size: 18px;
+}
+}
+@media screen and (max-width:760px){
+#img-sp{
+	margin-right:33%; 
+}	
+#photo{
+	width:45%;
+	height: 10%;
+	margin-left:33%; 
+}
+}
+@media screen and (max-width:600px){	
+#photo{
+	width:55%;
+	height: 10%;
+	margin-left:33%; 
+}
+}
+@media screen and (max-width:634px){
+	.about p{
+	font-size: 15px;
+}
+}
+@media screen and (max-width:480px){
+.main-content{
+	margin: 3% 0% 0% 12%;
+	display: inline-block;
+}
+.main-content li{
+	display: inline-block;
+	margin: 0%;
+}
+.main-content img{
+   width: 40%;
+}
+#imgex{
+   width: 16%;
+}
+#img-sp{
+	margin-right:33%; 
+}	
+#photo{
+	width:70%;
+	height: 10%;
+	margin-left:30%; 
+}
+.about{
+	width: 60%;
+	padding: 3% 5%;
+	text-align: center;
+	color: white;
+	background-color: rgba(255,255,255,0.25);
+	margin: 0px auto;
+	border-top-left-radius:150%;
+	border-top-right-radius:150%;
+}
+h2,h1{
+	text-align: center;
+	color: white;
+}
+footer{
+	width:100%;
+  color: #fff;
+	margin-top: 25%
+}
+}
+@media screen and (max-width:400px){	
+#photo{
+	width:66%;
+	height: 10%;
+	margin-left:33%; 
+}
+}
